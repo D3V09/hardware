@@ -1,0 +1,123 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body{
+    height: 100vh;
+    width: 100vw;
+}
+.header {
+    height: 130px;
+    max-width: 100%;
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(110, 110, 202);
+}
+
+.logoname {
+    font-family: 'Lato', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto Slab', serif;
+    font-size: 2.5rem;
+    padding-top: 38px;
+    color: white;
+}
+
+.logoimg img {
+    height: 130px;
+    border-radius: 10px;
+}
+
+/*  Section first  */
+.first {
+    margin: 25px 0;
+    padding-bottom: 20px;
+    overflow: hidden;
+    position: relative;
+}
+
+.first-box {
+    max-width: 80%;
+    max-height: 42%;
+    margin: auto;
+    color: black;
+    font-size: 10px;
+}
+
+.demo-bg {
+    opacity: 0.6;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: auto;
+}
+
+hr {
+    border: 3px solid black;
+}
+
+h2 {
+    margin: 25px 0;
+    font-size: 2rem;
+    font-family: 'Chakra Petch', sans-serif;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Merriweather', serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto Slab', serif;
+}
+
+.first-para {
+
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+    text-justify: auto;
+}
+
+/* section 2 */
+
+.second .row {
+    margin: auto;
+    max-width: 70%;
+    display: flex;
+}
+
+.second .column {
+    margin: 10px 20px;
+    justify-content: space-between;
+}
+
+.second .column img {
+    border-radius: 20px;
+}
+
+.column {
+    border-radius: 10px;
+    padding: 5px;
+    justify-content: space-between;
+    margin: 15px 0;
+}
+
+.Button {
+    background: skyblue;
+    color: darkblue;
+    border-radius: 8px;
+    border-color: skyblue;
+    padding: 4px;
+    font-size: 21px;
+}
+
+.b {
+    display: flex;
+    justify-content: center;
+}
+
+.column img:hover {
+    transform: scale(1.02);
+}
+
+.Button:hover {
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
